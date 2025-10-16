@@ -1,0 +1,496 @@
+[2025-10-11 01:42:39,742] INFO | LEARNING: ================================================================================
+[2025-10-11 01:42:39,742] INFO | LEARNING: SYSTEM INFORMATION FOR REPRODUCIBILITY
+[2025-10-11 01:42:39,742] INFO | LEARNING: Python Version: 3.11.13 (main, Jun  5 2025, 08:21:08) [Clang 14.0.6 ]
+[2025-10-11 01:42:39,742] INFO | LEARNING: Current Directory: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview
+[2025-10-11 01:42:39,742] INFO | LEARNING: Available CPU cores: 24
+[2025-10-11 01:42:39,742] INFO | LEARNING: ================================================================================
+[2025-10-11 01:42:39,742] INFO | LEARNING: Initializing data loader for years: [2017, 2018, 2019, 2020, 2021, 2022, 2023]
+[2025-10-11 01:42:39,742] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:39,742] INFO | LEARNING: LOADING: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview/Data1_ATP_symbint/2017.xlsx
+[2025-10-11 01:42:40,047] INFO | LEARNING: ✓ Loaded 2633 rows from 2017
+[2025-10-11 01:42:40,047] INFO | LEARNING:   Columns found (first 10): ['ATP', 'Location', 'Tournament', 'Date', 'Series', 'Court', 'Surface', 'Round', 'Best of', 'Winner']
+[2025-10-11 01:42:40,047] INFO | LEARNING:   Data shape: (2633, 40) (rows × columns)
+[2025-10-11 01:42:40,048] INFO | LEARNING:   Memory usage: 0.80 MB
+[2025-10-11 01:42:40,048] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:40,048] INFO | LEARNING: LOADING: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview/Data1_ATP_symbint/2018.xlsx
+[2025-10-11 01:42:40,299] INFO | LEARNING: ✓ Loaded 2637 rows from 2018
+[2025-10-11 01:42:40,300] INFO | LEARNING:   Columns found (first 10): ['ATP', 'Location', 'Tournament', 'Date', 'Series', 'Court', 'Surface', 'Round', 'Best of', 'Winner']
+[2025-10-11 01:42:40,300] INFO | LEARNING:   Data shape: (2637, 40) (rows × columns)
+[2025-10-11 01:42:40,300] INFO | LEARNING:   Memory usage: 0.80 MB
+[2025-10-11 01:42:40,300] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:40,300] INFO | LEARNING: LOADING: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview/Data1_ATP_symbint/2019.xlsx
+[2025-10-11 01:42:40,526] INFO | LEARNING: ✓ Loaded 2610 rows from 2019
+[2025-10-11 01:42:40,526] INFO | LEARNING:   Columns found (first 10): ['ATP', 'Location', 'Tournament', 'Date', 'Series', 'Court', 'Surface', 'Round', 'Best of', 'Winner']
+[2025-10-11 01:42:40,526] INFO | LEARNING:   Data shape: (2610, 36) (rows × columns)
+[2025-10-11 01:42:40,527] INFO | LEARNING:   Memory usage: 0.72 MB
+[2025-10-11 01:42:40,527] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:40,527] INFO | LEARNING: LOADING: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview/Data1_ATP_symbint/2020.xlsx
+[2025-10-11 01:42:40,648] INFO | LEARNING: ✓ Loaded 1267 rows from 2020
+[2025-10-11 01:42:40,649] INFO | LEARNING:   Columns found (first 10): ['ATP', 'Location', 'Tournament', 'Date', 'Series', 'Court', 'Surface', 'Round', 'Best of', 'Winner']
+[2025-10-11 01:42:40,649] INFO | LEARNING:   Data shape: (1267, 36) (rows × columns)
+[2025-10-11 01:42:40,649] INFO | LEARNING:   Memory usage: 0.35 MB
+[2025-10-11 01:42:40,649] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:40,649] INFO | LEARNING: LOADING: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview/Data1_ATP_symbint/2021.xlsx
+[2025-10-11 01:42:40,861] INFO | LEARNING: ✓ Loaded 2489 rows from 2021
+[2025-10-11 01:42:40,861] INFO | LEARNING:   Columns found (first 10): ['ATP', 'Location', 'Tournament', 'Date', 'Series', 'Court', 'Surface', 'Round', 'Best of', 'Winner']
+[2025-10-11 01:42:40,861] INFO | LEARNING:   Data shape: (2489, 36) (rows × columns)
+[2025-10-11 01:42:40,861] INFO | LEARNING:   Memory usage: 0.68 MB
+[2025-10-11 01:42:40,861] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:40,861] INFO | LEARNING: LOADING: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview/Data1_ATP_symbint/2022.xlsx
+[2025-10-11 01:42:41,088] INFO | LEARNING: ✓ Loaded 2632 rows from 2022
+[2025-10-11 01:42:41,088] INFO | LEARNING:   Columns found (first 10): ['ATP', 'Location', 'Tournament', 'Date', 'Series', 'Court', 'Surface', 'Round', 'Best of', 'Winner']
+[2025-10-11 01:42:41,088] INFO | LEARNING:   Data shape: (2632, 36) (rows × columns)
+[2025-10-11 01:42:41,089] INFO | LEARNING:   Memory usage: 0.72 MB
+[2025-10-11 01:42:41,089] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:41,089] INFO | LEARNING: LOADING: /Users/matthewraymondandrewgrant/PycharmProjects/symbinterview/Data1_ATP_symbint/2023.xlsx
+[2025-10-11 01:42:41,268] INFO | LEARNING: ✓ Loaded 1996 rows from 2023
+[2025-10-11 01:42:41,268] INFO | LEARNING:   Columns found (first 10): ['ATP', 'Location', 'Tournament', 'Date', 'Series', 'Court', 'Surface', 'Round', 'Best of', 'Winner']
+[2025-10-11 01:42:41,268] INFO | LEARNING:   Data shape: (1996, 36) (rows × columns)
+[2025-10-11 01:42:41,268] INFO | LEARNING:   Memory usage: 0.55 MB
+[2025-10-11 01:42:41,271] INFO | LEARNING: 
+============================================================
+[2025-10-11 01:42:41,271] INFO | LEARNING: COMBINED DATASET STATISTICS:
+[2025-10-11 01:42:41,271] INFO | LEARNING: Total matches: 16264
+[2025-10-11 01:42:41,271] INFO | LEARNING: Date range: 2017 - 2023
+[2025-10-11 01:42:41,271] INFO | LEARNING: Total features: 41
+[2025-10-11 01:42:41,271] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:42:41,271] INFO | LEARNING: TABLE: Combined dataset (head) — total columns: 41 (showing up to 10 rows per slice)
+[2025-10-11 01:42:41,271] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:42:41,272] INFO | LEARNING: 
+Combined dataset (head) — slice 1 (cols ATP … Surface)
+|   ATP | Location   | Tournament             | Date                | Series   | Court   | Surface   |
+|-------|------------|------------------------|---------------------|----------|---------|-----------|
+|     1 | Brisbane   | Brisbane International | 2017-01-01 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+
+[2025-10-11 01:42:41,272] INFO | LEARNING: 
+Combined dataset (head) — slice 2 (cols Round … WPts)
+| Round     |   Best of | Winner         | Loser        |   WRank |   LRank |   WPts |
+|-----------|-----------|----------------|--------------|---------|---------|--------|
+| 1st Round |         3 | Thompson J.    | Ymer E.      |      79 |     160 |    689 |
+| 1st Round |         3 | Mahut N.       | Robert S.    |      39 |      54 |   1102 |
+| 1st Round |         3 | Ferrer D.      | Tomic B.     |      21 |      26 |   1785 |
+| 1st Round |         3 | Edmund K.      | Escobedo E.  |      45 |     141 |   1001 |
+| 1st Round |         3 | Dimitrov G.    | Johnson S.   |      17 |      33 |   2035 |
+| 1st Round |         3 | Donaldson J.   | Muller G.    |     105 |      34 |    570 |
+| 1st Round |         3 | Groth S.       | Herbert P.H. |     180 |      78 |    320 |
+| 1st Round |         3 | Pouille L.     | Simon G.     |      15 |      25 |   2156 |
+| 1st Round |         3 | Troicki V.     | Nishioka Y.  |      29 |     100 |   1385 |
+| 1st Round |         3 | Schwartzman D. | Querrey S.   |      52 |      31 |    864 |
+
+[2025-10-11 01:42:41,273] INFO | LEARNING: 
+Combined dataset (head) — slice 3 (cols LPts … L3)
+|   LPts |   W1 |   L1 |   W2 |   L2 |   W3 |   L3 |
+|--------|------|------|------|------|------|------|
+|    372 |    6 |    3 |    6 |    2 |  nan |  nan |
+|    854 |    4 |    6 |    6 |    3 |    6 |    4 |
+|   1465 |    6 |    3 |    7 |    5 |  nan |  nan |
+|    443 |    7 |    6 |    7 |    6 |  nan |  nan |
+|   1320 |    6 |    2 |    6 |    3 |  nan |  nan |
+|   1255 |    6 |    4 |    6 |    4 |  nan |  nan |
+|    698 |    6 |    3 |    5 |    7 |    7 |    5 |
+|   1585 |    7 |    6 |    7 |    6 |  nan |  nan |
+|    604 |    6 |    4 |    7 |    5 |  nan |  nan |
+|   1355 |    6 |    2 |    6 |    4 |  nan |  nan |
+
+[2025-10-11 01:42:41,273] INFO | LEARNING: 
+Combined dataset (head) — slice 4 (cols W4 … Comment)
+|   W4 |   L4 |   W5 |   L5 |   Wsets |   Lsets | Comment   |
+|------|------|------|------|---------|---------|-----------|
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       1 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       1 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+
+[2025-10-11 01:42:41,273] INFO | LEARNING: 
+Combined dataset (head) — slice 5 (cols B365W … PSW)
+|   B365W |   B365L |   EXW |   EXL |   LBW |   LBL |   PSW |
+|---------|---------|-------|-------|-------|-------|-------|
+|    1.28 |    3.5  |  1.22 |  3.5  |  1.3  |  3.5  |  1.31 |
+|    1.5  |    2.5  |  1.45 |  2.35 |  1.53 |  2.5  |  1.58 |
+|    1.9  |    1.8  |  1.88 |  1.75 |  2    |  1.8  |  2.1  |
+|    1.36 |    3    |  1.35 |  2.75 |  1.4  |  3    |  1.42 |
+|    1.4  |    2.75 |  1.38 |  2.65 |  1.4  |  3    |  1.41 |
+|    2.62 |    1.44 |  2.5  |  1.4  |  2.62 |  1.5  |  2.74 |
+|    2.25 |    1.57 |  2.25 |  1.52 |  2.25 |  1.62 |  2.34 |
+|    1.8  |    1.9  |  1.75 |  1.85 |  1.91 |  1.91 |  1.93 |
+|    1.5  |    2.5  |  1.45 |  2.4  |  1.5  |  2.5  |  1.54 |
+|    2.2  |    1.61 |  2.05 |  1.62 |  2.2  |  1.67 |  2.2  |
+
+[2025-10-11 01:42:41,274] INFO | LEARNING: 
+Combined dataset (head) — slice 6 (cols PSL … year)
+|   PSL |   MaxW |   MaxL |   AvgW |   AvgL |   year |
+|-------|--------|--------|--------|--------|--------|
+|  3.73 |   1.33 |   3.9  |   1.29 |   3.5  |   2017 |
+|  2.52 |   1.59 |   2.55 |   1.54 |   2.43 |   2017 |
+|  1.81 |   2.15 |   1.82 |   2.01 |   1.77 |   2017 |
+|  3.09 |   1.42 |   3.25 |   1.37 |   3.01 |   2017 |
+|  3.13 |   1.46 |   3.13 |   1.41 |   2.85 |   2017 |
+|  1.51 |   2.75 |   1.51 |   2.64 |   1.47 |   2017 |
+|  1.66 |   2.4  |   1.66 |   2.27 |   1.61 |   2017 |
+|  1.95 |   1.93 |   2    |   1.83 |   1.94 |   2017 |
+|  2.62 |   1.54 |   2.85 |   1.49 |   2.57 |   2017 |
+|  1.74 |   2.3  |   1.74 |   2.18 |   1.66 |   2017 |
+
+[2025-10-11 01:42:41,277] INFO | LEARNING: 
+================================================================================
+[2025-10-11 01:42:41,277] INFO | LEARNING: FEATURE ENGINEERING: Creating meaningful tennis metrics
+[2025-10-11 01:42:41,277] INFO | LEARNING: ================================================================================
+[2025-10-11 01:42:41,277] INFO | LEARNING: 
+1. SURFACE TYPE ENCODING
+[2025-10-11 01:42:41,277] WARNING | LEARNING:    Column 'surface' not found — skipping surface encodings.
+[2025-10-11 01:42:41,277] INFO | LEARNING: 
+2. PLAYER PERFORMANCE METRICS — rolling averages/ratios where available
+[2025-10-11 01:42:41,277] WARNING | LEARNING:    • Skipping ace_rate: missing columns Aces or SrvPnts
+[2025-10-11 01:42:41,277] WARNING | LEARNING:    • Skipping first_serve_success: missing columns 1stIn or SrvPnts
+[2025-10-11 01:42:41,277] WARNING | LEARNING:    • Skipping first_serve_points_won_rate: missing columns 1stWon or 1stIn
+[2025-10-11 01:42:41,277] WARNING | LEARNING:    • Skipping break_point_saved_rate: missing columns BPSaved or BPFaced
+[2025-10-11 01:42:41,277] WARNING | LEARNING:    • Skipping return_points_won_rate: missing columns RetPntsWon or RetPntsPlayed
+[2025-10-11 01:42:41,277] WARNING | LEARNING:    • Skipping recent_form: need 'won_match' and a player column
+[2025-10-11 01:42:41,277] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:42:41,277] INFO | LEARNING: TABLE: Feature‑engineered dataset (head) — total columns: 41 (showing up to 10 rows per slice)
+[2025-10-11 01:42:41,277] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:42:41,278] INFO | LEARNING: 
+Feature‑engineered dataset (head) — slice 1 (cols ATP … Surface)
+|   ATP | Location   | Tournament             | Date                | Series   | Court   | Surface   |
+|-------|------------|------------------------|---------------------|----------|---------|-----------|
+|     1 | Brisbane   | Brisbane International | 2017-01-01 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-02 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+|     1 | Brisbane   | Brisbane International | 2017-01-03 00:00:00 | ATP250   | Outdoor | Hard      |
+
+[2025-10-11 01:42:41,278] INFO | LEARNING: 
+Feature‑engineered dataset (head) — slice 2 (cols Round … WPts)
+| Round     |   Best of | Winner         | Loser        |   WRank |   LRank |   WPts |
+|-----------|-----------|----------------|--------------|---------|---------|--------|
+| 1st Round |         3 | Thompson J.    | Ymer E.      |      79 |     160 |    689 |
+| 1st Round |         3 | Mahut N.       | Robert S.    |      39 |      54 |   1102 |
+| 1st Round |         3 | Ferrer D.      | Tomic B.     |      21 |      26 |   1785 |
+| 1st Round |         3 | Edmund K.      | Escobedo E.  |      45 |     141 |   1001 |
+| 1st Round |         3 | Dimitrov G.    | Johnson S.   |      17 |      33 |   2035 |
+| 1st Round |         3 | Donaldson J.   | Muller G.    |     105 |      34 |    570 |
+| 1st Round |         3 | Groth S.       | Herbert P.H. |     180 |      78 |    320 |
+| 1st Round |         3 | Pouille L.     | Simon G.     |      15 |      25 |   2156 |
+| 1st Round |         3 | Troicki V.     | Nishioka Y.  |      29 |     100 |   1385 |
+| 1st Round |         3 | Schwartzman D. | Querrey S.   |      52 |      31 |    864 |
+
+[2025-10-11 01:42:41,279] INFO | LEARNING: 
+Feature‑engineered dataset (head) — slice 3 (cols LPts … L3)
+|   LPts |   W1 |   L1 |   W2 |   L2 |   W3 |   L3 |
+|--------|------|------|------|------|------|------|
+|    372 |    6 |    3 |    6 |    2 |  nan |  nan |
+|    854 |    4 |    6 |    6 |    3 |    6 |    4 |
+|   1465 |    6 |    3 |    7 |    5 |  nan |  nan |
+|    443 |    7 |    6 |    7 |    6 |  nan |  nan |
+|   1320 |    6 |    2 |    6 |    3 |  nan |  nan |
+|   1255 |    6 |    4 |    6 |    4 |  nan |  nan |
+|    698 |    6 |    3 |    5 |    7 |    7 |    5 |
+|   1585 |    7 |    6 |    7 |    6 |  nan |  nan |
+|    604 |    6 |    4 |    7 |    5 |  nan |  nan |
+|   1355 |    6 |    2 |    6 |    4 |  nan |  nan |
+
+[2025-10-11 01:42:41,279] INFO | LEARNING: 
+Feature‑engineered dataset (head) — slice 4 (cols W4 … Comment)
+|   W4 |   L4 |   W5 |   L5 |   Wsets |   Lsets | Comment   |
+|------|------|------|------|---------|---------|-----------|
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       1 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       1 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+|  nan |  nan |  nan |  nan |       2 |       0 | Completed |
+
+[2025-10-11 01:42:41,279] INFO | LEARNING: 
+Feature‑engineered dataset (head) — slice 5 (cols B365W … PSW)
+|   B365W |   B365L |   EXW |   EXL |   LBW |   LBL |   PSW |
+|---------|---------|-------|-------|-------|-------|-------|
+|    1.28 |    3.5  |  1.22 |  3.5  |  1.3  |  3.5  |  1.31 |
+|    1.5  |    2.5  |  1.45 |  2.35 |  1.53 |  2.5  |  1.58 |
+|    1.9  |    1.8  |  1.88 |  1.75 |  2    |  1.8  |  2.1  |
+|    1.36 |    3    |  1.35 |  2.75 |  1.4  |  3    |  1.42 |
+|    1.4  |    2.75 |  1.38 |  2.65 |  1.4  |  3    |  1.41 |
+|    2.62 |    1.44 |  2.5  |  1.4  |  2.62 |  1.5  |  2.74 |
+|    2.25 |    1.57 |  2.25 |  1.52 |  2.25 |  1.62 |  2.34 |
+|    1.8  |    1.9  |  1.75 |  1.85 |  1.91 |  1.91 |  1.93 |
+|    1.5  |    2.5  |  1.45 |  2.4  |  1.5  |  2.5  |  1.54 |
+|    2.2  |    1.61 |  2.05 |  1.62 |  2.2  |  1.67 |  2.2  |
+
+[2025-10-11 01:42:41,280] INFO | LEARNING: 
+Feature‑engineered dataset (head) — slice 6 (cols PSL … year)
+|   PSL |   MaxW |   MaxL |   AvgW |   AvgL |   year |
+|-------|--------|--------|--------|--------|--------|
+|  3.73 |   1.33 |   3.9  |   1.29 |   3.5  |   2017 |
+|  2.52 |   1.59 |   2.55 |   1.54 |   2.43 |   2017 |
+|  1.81 |   2.15 |   1.82 |   2.01 |   1.77 |   2017 |
+|  3.09 |   1.42 |   3.25 |   1.37 |   3.01 |   2017 |
+|  3.13 |   1.46 |   3.13 |   1.41 |   2.85 |   2017 |
+|  1.51 |   2.75 |   1.51 |   2.64 |   1.47 |   2017 |
+|  1.66 |   2.4  |   1.66 |   2.27 |   1.61 |   2017 |
+|  1.95 |   1.93 |   2    |   1.83 |   1.94 |   2017 |
+|  2.62 |   1.54 |   2.85 |   1.49 |   2.57 |   2017 |
+|  1.74 |   2.3  |   1.74 |   2.18 |   1.66 |   2017 |
+
+[2025-10-11 01:42:41,705] INFO | LEARNING: Target created: higher_ranked_won (classification) - predicting if better-ranked player won
+[2025-10-11 01:42:41,721] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:42:41,721] INFO | LEARNING: TABLE: Model features X (head) — total columns: 31 (showing up to 10 rows per slice)
+[2025-10-11 01:42:41,721] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:42:41,722] INFO | LEARNING: 
+Model features X (head) — slice 1 (cols ATP … W1)
+|   ATP |   Best of |   WRank |   LRank |   WPts |   LPts |   W1 |
+|-------|-----------|---------|---------|--------|--------|------|
+|     1 |         3 |      79 |     160 |    689 |    372 |    6 |
+|     1 |         3 |      39 |      54 |   1102 |    854 |    4 |
+|     1 |         3 |      21 |      26 |   1785 |   1465 |    6 |
+|     1 |         3 |      45 |     141 |   1001 |    443 |    7 |
+|     1 |         3 |      17 |      33 |   2035 |   1320 |    6 |
+|     1 |         3 |     105 |      34 |    570 |   1255 |    6 |
+|     1 |         3 |     180 |      78 |    320 |    698 |    6 |
+|     1 |         3 |      15 |      25 |   2156 |   1585 |    7 |
+|     1 |         3 |      29 |     100 |   1385 |    604 |    6 |
+|     1 |         3 |      52 |      31 |    864 |   1355 |    6 |
+
+[2025-10-11 01:42:41,722] INFO | LEARNING: 
+Model features X (head) — slice 2 (cols L1 … L4)
+|   L1 |   W2 |   L2 |   W3 |   L3 |   W4 |   L4 |
+|------|------|------|------|------|------|------|
+|    3 |    6 |    2 |    6 |    4 |    6 |    4 |
+|    6 |    6 |    3 |    6 |    4 |    6 |    4 |
+|    3 |    7 |    5 |    6 |    4 |    6 |    4 |
+|    6 |    7 |    6 |    6 |    4 |    6 |    4 |
+|    2 |    6 |    3 |    6 |    4 |    6 |    4 |
+|    4 |    6 |    4 |    6 |    4 |    6 |    4 |
+|    3 |    5 |    7 |    7 |    5 |    6 |    4 |
+|    6 |    7 |    6 |    6 |    4 |    6 |    4 |
+|    4 |    7 |    5 |    6 |    4 |    6 |    4 |
+|    2 |    6 |    4 |    6 |    4 |    6 |    4 |
+
+[2025-10-11 01:42:41,722] INFO | LEARNING: 
+Model features X (head) — slice 3 (cols W5 … EXW)
+|   W5 |   L5 |   Wsets |   Lsets |   B365W |   B365L |   EXW |
+|------|------|---------|---------|---------|---------|-------|
+|    6 |    3 |       2 |       0 |    1.28 |    3.5  |  1.22 |
+|    6 |    3 |       2 |       1 |    1.5  |    2.5  |  1.45 |
+|    6 |    3 |       2 |       0 |    1.9  |    1.8  |  1.88 |
+|    6 |    3 |       2 |       0 |    1.36 |    3    |  1.35 |
+|    6 |    3 |       2 |       0 |    1.4  |    2.75 |  1.38 |
+|    6 |    3 |       2 |       0 |    2.62 |    1.44 |  2.5  |
+|    6 |    3 |       2 |       1 |    2.25 |    1.57 |  2.25 |
+|    6 |    3 |       2 |       0 |    1.8  |    1.9  |  1.75 |
+|    6 |    3 |       2 |       0 |    1.5  |    2.5  |  1.45 |
+|    6 |    3 |       2 |       0 |    2.2  |    1.61 |  2.05 |
+
+[2025-10-11 01:42:41,723] INFO | LEARNING: 
+Model features X (head) — slice 4 (cols EXL … MaxL)
+|   EXL |   LBW |   LBL |   PSW |   PSL |   MaxW |   MaxL |
+|-------|-------|-------|-------|-------|--------|--------|
+|  3.5  |  1.3  |  3.5  |  1.31 |  3.73 |   1.33 |   3.9  |
+|  2.35 |  1.53 |  2.5  |  1.58 |  2.52 |   1.59 |   2.55 |
+|  1.75 |  2    |  1.8  |  2.1  |  1.81 |   2.15 |   1.82 |
+|  2.75 |  1.4  |  3    |  1.42 |  3.09 |   1.42 |   3.25 |
+|  2.65 |  1.4  |  3    |  1.41 |  3.13 |   1.46 |   3.13 |
+|  1.4  |  2.62 |  1.5  |  2.74 |  1.51 |   2.75 |   1.51 |
+|  1.52 |  2.25 |  1.62 |  2.34 |  1.66 |   2.4  |   1.66 |
+|  1.85 |  1.91 |  1.91 |  1.93 |  1.95 |   1.93 |   2    |
+|  2.4  |  1.5  |  2.5  |  1.54 |  2.62 |   1.54 |   2.85 |
+|  1.62 |  2.2  |  1.67 |  2.2  |  1.74 |   2.3  |   1.74 |
+
+[2025-10-11 01:42:41,723] INFO | LEARNING: 
+Model features X (head) — slice 5 (cols AvgW … year)
+|   AvgW |   AvgL |   year |
+|--------|--------|--------|
+|   1.29 |   3.5  |   2017 |
+|   1.54 |   2.43 |   2017 |
+|   2.01 |   1.77 |   2017 |
+|   1.37 |   3.01 |   2017 |
+|   1.41 |   2.85 |   2017 |
+|   2.64 |   1.47 |   2017 |
+|   2.27 |   1.61 |   2017 |
+|   1.83 |   1.94 |   2017 |
+|   1.49 |   2.57 |   2017 |
+|   2.18 |   1.66 |   2017 |
+
+[2025-10-11 01:42:41,723] INFO | LEARNING: Model will use 31 numeric features.
+[2025-10-11 01:42:41,727] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:42:41,727] INFO | LEARNING: TABLE: Target y_train (head) — total columns: 1 (showing up to 10 rows per slice)
+[2025-10-11 01:42:41,727] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:42:41,727] INFO | LEARNING: 
+Target y_train (head) — slice 1 (cols y_train … y_train)
+|   y_train |
+|-----------|
+|         0 |
+|         1 |
+|         1 |
+|         1 |
+|         1 |
+|         1 |
+|         1 |
+|         1 |
+|         1 |
+|         0 |
+
+[2025-10-11 01:42:41,727] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:42:41,727] INFO | LEARNING: TABLE: Target y_test (head) — total columns: 1 (showing up to 10 rows per slice)
+[2025-10-11 01:42:41,727] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:42:41,728] INFO | LEARNING: 
+Target y_test (head) — slice 1 (cols y_test … y_test)
+|   y_test |
+|----------|
+|        0 |
+|        0 |
+|        1 |
+|        1 |
+|        1 |
+|        1 |
+|        1 |
+|        1 |
+|        0 |
+|        0 |
+
+[2025-10-11 01:42:41,728] INFO | LEARNING: 
+================================================================================
+[2025-10-11 01:42:41,728] INFO | LEARNING: TRADITIONAL MACHINE LEARNING PIPELINE
+[2025-10-11 01:42:41,728] INFO | LEARNING: ================================================================================
+[2025-10-11 01:42:41,728] INFO | LEARNING: Approach: Learn patterns from data without explicit formulas
+[2025-10-11 01:42:41,728] INFO | LEARNING: Training samples: 13011
+[2025-10-11 01:42:41,728] INFO | LEARNING: Testing samples: 3253
+[2025-10-11 01:42:41,728] INFO | LEARNING: Features: 31
+[2025-10-11 01:42:41,728] INFO | LEARNING: 
+------------------------------------------------------------
+[2025-10-11 01:42:41,728] INFO | LEARNING: MODEL 1: RANDOM FOREST
+[2025-10-11 01:42:41,728] INFO | LEARNING: ------------------------------------------------------------
+[2025-10-11 01:42:41,728] INFO | LEARNING: CONCEPT: Like asking 100 tennis experts and averaging their opinions
+[2025-10-11 01:42:42,365] INFO | LEARNING: RESULTS (train): {'accuracy': 1.0, 'f1': 1.0}
+[2025-10-11 01:42:42,365] INFO | LEARNING: RESULTS (test):  {'accuracy': 0.9797110359667999, 'f1': 0.983957219251337}
+[2025-10-11 01:42:42,394] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:42:42,394] INFO | LEARNING: TABLE: RandomForest — top feature importances — total columns: 2 (showing up to 10 rows per slice)
+[2025-10-11 01:42:42,394] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:42:42,395] INFO | LEARNING: 
+RandomForest — top feature importances — slice 1 (cols feature … importance)
+| feature   |   importance |
+|-----------|--------------|
+| WPts      |    0.133387  |
+| WRank     |    0.13203   |
+| LRank     |    0.12715   |
+| LPts      |    0.117964  |
+| MaxW      |    0.0779952 |
+| AvgL      |    0.0688321 |
+| MaxL      |    0.0622486 |
+| PSL       |    0.0520163 |
+| PSW       |    0.0483116 |
+| AvgW      |    0.0465222 |
+
+[2025-10-11 01:42:42,395] INFO | LEARNING: 
+------------------------------------------------------------
+[2025-10-11 01:42:42,395] INFO | LEARNING: MODEL 2: XGBoost (Gradient Boosting)
+[2025-10-11 01:42:42,395] INFO | LEARNING: ------------------------------------------------------------
+[2025-10-11 01:42:45,028] INFO | LEARNING: RESULTS (test): {'accuracy': 0.9935444205348909, 'f1': 0.9948917538311847}
+[2025-10-11 01:42:45,028] INFO | LEARNING: 
+------------------------------------------------------------
+[2025-10-11 01:42:45,028] INFO | LEARNING: MODEL 3: Neural Network (MLP)
+[2025-10-11 01:42:45,028] INFO | LEARNING: ------------------------------------------------------------
+[2025-10-11 01:42:46,565] INFO | LEARNING: RESULTS (test): {'accuracy': 0.9775591761450968, 'f1': 0.982548410231891}
+[2025-10-11 01:42:46,565] INFO | LEARNING: 
+================================================================================
+[2025-10-11 01:42:46,565] INFO | LEARNING: SYMBOLIC MACHINE LEARNING PIPELINE
+[2025-10-11 01:42:46,566] INFO | LEARNING: ================================================================================
+[2025-10-11 01:42:46,566] INFO | LEARNING: Approach: Discover mathematical equations that explain the data
+[2025-10-11 01:42:46,566] INFO | LEARNING: Output: Human-readable formulas like physics equations
+[2025-10-11 01:42:46,566] WARNING | LEARNING: PySR is regression-only; fitting to numeric target as regression.
+[2025-10-11 01:42:46,627] DEBUG | LEARNING: Attempting to acquire lock 6080228240 on /opt/anaconda3/envs/symbinterview/julia_env/lock.pid
+[2025-10-11 01:42:46,627] DEBUG | LEARNING: Lock 6080228240 acquired on /opt/anaconda3/envs/symbinterview/julia_env/lock.pid
+[2025-10-11 01:42:46,655] DEBUG | LEARNING: Attempting to release lock 6080228240 on /opt/anaconda3/envs/symbinterview/julia_env/lock.pid
+[2025-10-11 01:42:46,656] DEBUG | LEARNING: Lock 6080228240 released on /opt/anaconda3/envs/symbinterview/julia_env/lock.pid
+[2025-10-11 01:42:50,133] INFO | LEARNING: 
+------------------------------------------------------------
+[2025-10-11 01:42:50,133] INFO | LEARNING: SYMBOLIC REGRESSION WITH PySR
+[2025-10-11 01:42:50,133] INFO | LEARNING: ------------------------------------------------------------
+[2025-10-11 01:42:50,133] INFO | LEARNING: Genetic programming steps: initialize → evaluate → select → mutate → crossover → repeat
+[2025-10-11 01:42:50,134] INFO | LEARNING: Starting evolution…
+[2025-10-11 01:44:40,499] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:44:40,499] INFO | LEARNING: TABLE: PySR Pareto-front equations (top) — total columns: 4 (showing up to 10 rows per slice)
+[2025-10-11 01:44:40,499] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:44:40,499] INFO | LEARNING: 
+PySR Pareto-front equations (top) — slice 1 (cols equation … score)
+| equation                                                           |       loss |   complexity |       score |
+|--------------------------------------------------------------------|------------|--------------|-------------|
+| 0.9477926                                                          | 0.332504   |            1 | 0           |
+| exp(-0.4592326)                                                    | 0.232636   |            2 | 0.357179    |
+| 1.1080346 / x26                                                    | 0.149855   |            3 | 0.439803    |
+| exp(1.1593907 - x28)                                               | 0.141203   |            4 | 0.0594728   |
+| exp(sqrt(1.3441557) - x28)                                         | 0.141203   |            5 | 7.08201e-08 |
+| square(exp(-0.33716682 * (x2 / x3)))                               | 0.076038   |            7 | 0.309482    |
+| square(exp(-0.33716682 * square(x2 / x3)))                         | 0.0414122  |            8 | 0.607657    |
+| sqrt(exp(-1.3611299 * square(square(x2 / x3))))                    | 0.0213889  |            9 | 0.660703    |
+| sqrt(exp(-1.3719839 * square(square(square(x2 / x3)))))            | 0.0110015  |           10 | 0.664841    |
+| square(exp(square(square(square(square(x2 / x3)))) * -0.34674543)) | 0.00578227 |           11 | 0.643236    |
+
+[2025-10-11 01:44:40,507] INFO | LEARNING: FINAL PERFORMANCE (test): {'r2': -0.1001923468003707, 'rmse': 0.5059231690489587}
+[2025-10-11 01:44:40,517] INFO | LEARNING: 
+============================================================
+BEST SYMBOLIC EQUATION (interpretable formula)
+============================================================
+1.01738489123705*exp(-138.41486*x2/x3)**(1/2048)
+============================================================
+
+[2025-10-11 01:44:40,517] INFO | LEARNING: 
+================================================================================
+[2025-10-11 01:44:40,517] INFO | LEARNING: FINAL COMPARISON: TRADITIONAL ML vs SYMBOLIC ML
+[2025-10-11 01:44:40,517] INFO | LEARNING: ================================================================================
+[2025-10-11 01:44:40,517] INFO | LEARNING: 
+--------------------------------------------------------------------------------
+[2025-10-11 01:44:40,517] INFO | LEARNING: TABLE: Traditional vs Symbolic — comparison table — total columns: 3 (showing up to 10 rows per slice)
+[2025-10-11 01:44:40,517] INFO | LEARNING: --------------------------------------------------------------------------------
+[2025-10-11 01:44:40,517] INFO | LEARNING: 
+Traditional vs Symbolic — comparison table — slice 1 (cols Metric … Symbolic ML)
+| Metric                   | Traditional ML   | Symbolic ML                      |
+|--------------------------|------------------|----------------------------------|
+| Accuracy (R²/Acc)        | 0.9935           | -0.1002                          |
+| Interpretability         | Low (black box)  | High (equation)                  |
+| Equation Output          | No               | Yes — explicit formula           |
+| Extrapolation Ability    | Often limited    | Often better (model is analytic) |
+| Feature Engineering Need | High             | Medium                           |
+| Domain Insight           | Limited          | High                             |
+
+[2025-10-11 01:44:40,517] INFO | LEARNING: 
+KEY INSIGHTS:
+1) Traditional: better raw predictive horsepower with enough data.
+2) Symbolic: reveals mechanism-level relationships (Occam’s razor).
+3) Hybrid: use symbolic to craft features, then feed to traditional models.

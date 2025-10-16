@@ -1,0 +1,27 @@
+                                                                                                                                                           equation     loss  complexity        score
+                                                                                                                                                          0.9477926 0.332504           1 0.000000e+00
+                                                                                                                                                    exp(-0.4592326) 0.232636           2 3.571788e-01
+                                                                                                                                                    1.1080346 / x26 0.149855           3 4.398026e-01
+                                                                                                                                               exp(1.1593907 - x28) 0.141203           4 5.947283e-02
+                                                                                                                                         exp(sqrt(1.3441557) - x28) 0.141203           5 7.082007e-08
+                                                                                                                               square(exp(-0.33716682 * (x2 / x3))) 0.076038           7 3.094821e-01
+                                                                                                                         square(exp(-0.33716682 * square(x2 / x3))) 0.041412           8 6.076571e-01
+                                                                                                                    sqrt(exp(-1.3611299 * square(square(x2 / x3)))) 0.021389           9 6.607030e-01
+                                                                                                            sqrt(exp(-1.3719839 * square(square(square(x2 / x3))))) 0.011002          10 6.648406e-01
+                                                                                                 square(exp(square(square(square(square(x2 / x3)))) * -0.34674543)) 0.005782          11 6.432360e-01
+                                                                                   square(exp(0.0057581305 - square(square(square(square(x2 / x3)) + -0.2297316)))) 0.004496          13 1.258471e-01
+                                                                          sqrt(exp(0.04767564 - square(square(1.5020587 * (square(square(x2 / x3)) - 0.2573966))))) 0.004425          15 7.956370e-03
+                                                             square(square(exp(0.0057581305 - square(square(-0.2297316 + square(square(x2 / x3))) - 0.093665764)))) 0.004107          16 7.456124e-02
+                                                                sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(exp(35.29831 - (138.41486 * (x2 / x3))))))))))))) 0.002282          18 2.938705e-01
+                                                          sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(exp(35.29831 - (138.41486 * (x2 / x3)))))))))))))) 0.001584          19 3.651068e-01
+                                                   sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(exp(29.147877 - (132.32988 * (x2 / x3))))))))))))))) 0.001418          20 1.104989e-01
+                                             sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(exp(21.550861 - ((x2 / x3) * 124.72897))))))))))))))) 0.001384          21 2.462831e-02
+                                         sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(exp(5.05834 - (108.40034 * (x2 / x3))))))))))))))))) 0.001379          22 3.482037e-03
+                                      sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(exp(0.5614866 - ((x2 / x3) * 104.054146)))))))) * x18))))))) 0.001378          23 7.460303e-04
+                                  sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(exp(35.29831 - ((x2 / x3) * 138.41486))))))) / x19))))))))) 0.001376          24 1.449536e-03
+                   sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(square(exp((1.6798012 - square(square(square((x2 / x3) * 1.6308826)))) - x19))))))))))))) 0.001256          25 9.075725e-02
+             sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(square(exp((1.6798012 - square(square(square((x2 / x3) * 1.6308826)))) - x19)))))))))))))) 0.001230          26 2.158349e-02
+                  sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(square((x30 * sqrt(exp(29.144697 - ((x2 / x3) * 132.33414)))) / exp(x19)))))))))))))) 0.001181          27 4.040173e-02
+            sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(square((x30 * sqrt(exp(29.144697 - ((x2 / x3) * 132.33414)))) / exp(x19))))))))))))))) 0.001154          28 2.291831e-02
+      sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(square((x30 * sqrt(exp(29.144697 - ((x2 / x3) * 132.33414)))) / exp(x19)))))))))))))))) 0.001150          29 3.329878e-03
+sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(sqrt(square((x30 * sqrt(exp(29.144697 - ((x2 / x3) * 132.33414)))) / exp(x19))) / x19))))))))))))) 0.001150          31 1.325966e-04
