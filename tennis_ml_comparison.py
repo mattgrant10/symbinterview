@@ -31,6 +31,10 @@ from typing import Dict, List, Optional, Tuple
 
 from pathlib import Path
 
+# Default folder for raw yearly Excel files
+HERE = Path(__file__).parent
+DEFAULT_DATA_DIR = HERE / "Data1_ATP_symbint"
+
 import numpy as np
 import pandas as pd
 from tabulate import tabulate
@@ -111,12 +115,13 @@ class TennisDataLoader:
     def __init__(
         self,
         years_range: Tuple[int, int] = (2017, 2023),
-        data_dir: str | Path = '.',
+        data_dir: str | Path = DEFAULT_DATA_DIR,
     ):
         self.years = range(years_range[0], years_range[1] + 1)
         self.data_dir = Path(data_dir)
         logger.info(
-            f"Initializing data loader for years: {list(self.years)} and data directory: {self.data_dir}"
+            f"Initializing data loader for years: {list(self.years)}"
+            f" and data directory: {self.data_dir}"
         )
 
     def load_and_combine(self) -> pd.DataFrame:
@@ -623,7 +628,7 @@ class ModelComparison:
 
 def run_full_pipeline(
     years: Tuple[int, int] = (2017, 2023),
-    data_dir: str | Path = '.',
+    data_dir: str | Path = DEFAULT_DATA_DIR,
 ) -> Dict[str, object]:
     loader = TennisDataLoader(years_range=years, data_dir=data_dir)
     df_raw = loader.load_and_combine()
@@ -687,8 +692,8 @@ if __name__ == "__main__":
         description="Tennis data analysis: traditional ML vs symbolic regression"
     )
     parser.add_argument(
-        "--data-dir", required=True, type=str,
-        help="Directory containing yearly Excel data files"
+        "--data-dir", type=Path, default=DEFAULT_DATA_DIR,
+        help=f"Directory containing yearly Excel data files (default: {DEFAULT_DATA_DIR})"
     )
     parser.add_argument(
         "--start-year", type=int, default=2017,

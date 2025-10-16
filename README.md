@@ -19,11 +19,11 @@ poetry install
 poetry shell
 ```
 
-Run the analysis:
+Run the analysis (by default it looks for Data1_ATP_symbint in the repo root):
 
 ```bash
-python run_tennis_analysis.py \
-    --data-dir Data1_ATP_symbint \
+python tennis_ml_comparison.py \
+    [--data-dir Data1_ATP_symbint] \
     --start-year 2017 --end-year 2023 \
     [--quiet | --debug]
 ```
@@ -35,8 +35,7 @@ python run_tennis_analysis.py \
 ├── Data1_ATP_symbint/         # raw Excel data by year
 ├── environment.yml            # Conda environment spec
 ├── pyproject.toml             # Poetry project spec
-├── tennis_ml_comparison.py    # core data and modeling pipeline
-├── run_tennis_analysis.py     # CLI wrapper for full pipeline
+├── tennis_ml_comparison.py    # core script with both pipeline and CLI
 ├── symbolic_vs_deep_notebook.ipynb  # interactive exploration notebook
 └── discovered_equations.txt   # output file for PySR equations (generated)
 ```
